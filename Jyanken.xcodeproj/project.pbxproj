@@ -13,9 +13,16 @@
 		103B90512CDB0B55001A5569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103B904F2CDB0B55001A5569 /* Main.storyboard */; };
 		103B90532CDB0B56001A5569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 103B90522CDB0B56001A5569 /* Assets.xcassets */; };
 		103B90562CDB0B56001A5569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103B90542CDB0B56001A5569 /* LaunchScreen.storyboard */; };
+		1068E43E2CDB48BC00137B7B /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1068E43D2CDB48BC00137B7B /* Results.swift */; };
+		1068E4402CDB540800137B7B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1068E43F2CDB540800137B7B /* HomeViewController.swift */; };
+		1068E4422CDB561300137B7B /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1068E4412CDB561300137B7B /* RankingViewController.swift */; };
+		1068E4442CDB762A00137B7B /* CompanyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1068E4432CDB762A00137B7B /* CompanyInfoViewController.swift */; };
+		10D476608B63D8E827424630 /* Pods_Jyanken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6060BD669CBED7B952D20D /* Pods_Jyanken.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08603AEF2619674BFD1D36FE /* Pods-Jyanken.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jyanken.release.xcconfig"; path = "Target Support Files/Pods-Jyanken/Pods-Jyanken.release.xcconfig"; sourceTree = "<group>"; };
+		0D6060BD669CBED7B952D20D /* Pods_Jyanken.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jyanken.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		103B90462CDB0B55001A5569 /* Jyanken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jyanken.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		103B90492CDB0B55001A5569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		103B904B2CDB0B55001A5569 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		103B90522CDB0B56001A5569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		103B90552CDB0B56001A5569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		103B90572CDB0B56001A5569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1068E43D2CDB48BC00137B7B /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		1068E43F2CDB540800137B7B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1068E4412CDB561300137B7B /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		1068E4432CDB762A00137B7B /* CompanyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyInfoViewController.swift; sourceTree = "<group>"; };
+		E06BA97F09CA6AB27478B9E6 /* Pods-Jyanken.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jyanken.debug.xcconfig"; path = "Target Support Files/Pods-Jyanken/Pods-Jyanken.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10D476608B63D8E827424630 /* Pods_Jyanken.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				103B90482CDB0B55001A5569 /* Jyanken */,
 				103B90472CDB0B55001A5569 /* Products */,
+				B72ED527E22B8B3FB18A283A /* Pods */,
+				212ACAB75B75E3E379487DB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +74,33 @@
 				103B90492CDB0B55001A5569 /* AppDelegate.swift */,
 				103B904B2CDB0B55001A5569 /* SceneDelegate.swift */,
 				103B904D2CDB0B55001A5569 /* ViewController.swift */,
+				1068E43F2CDB540800137B7B /* HomeViewController.swift */,
+				1068E4412CDB561300137B7B /* RankingViewController.swift */,
+				1068E4432CDB762A00137B7B /* CompanyInfoViewController.swift */,
+				1068E43D2CDB48BC00137B7B /* Results.swift */,
 				103B904F2CDB0B55001A5569 /* Main.storyboard */,
 				103B90522CDB0B56001A5569 /* Assets.xcassets */,
 				103B90542CDB0B56001A5569 /* LaunchScreen.storyboard */,
 				103B90572CDB0B56001A5569 /* Info.plist */,
 			);
 			path = Jyanken;
+			sourceTree = "<group>";
+		};
+		212ACAB75B75E3E379487DB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D6060BD669CBED7B952D20D /* Pods_Jyanken.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B72ED527E22B8B3FB18A283A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E06BA97F09CA6AB27478B9E6 /* Pods-Jyanken.debug.xcconfig */,
+				08603AEF2619674BFD1D36FE /* Pods-Jyanken.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 103B905A2CDB0B56001A5569 /* Build configuration list for PBXNativeTarget "Jyanken" */;
 			buildPhases = (
+				DAE33E3A23AEA2EB68208599 /* [CP] Check Pods Manifest.lock */,
 				103B90422CDB0B55001A5569 /* Sources */,
 				103B90432CDB0B55001A5569 /* Frameworks */,
 				103B90442CDB0B55001A5569 /* Resources */,
+				1C9ECFBA04A863067BEC6E95 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +171,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C9ECFBA04A863067BEC6E95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jyanken/Pods-Jyanken-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jyanken/Pods-Jyanken-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Jyanken/Pods-Jyanken-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAE33E3A23AEA2EB68208599 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jyanken-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		103B90422CDB0B55001A5569 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1068E4402CDB540800137B7B /* HomeViewController.swift in Sources */,
 				103B904E2CDB0B55001A5569 /* ViewController.swift in Sources */,
 				103B904A2CDB0B55001A5569 /* AppDelegate.swift in Sources */,
+				1068E43E2CDB48BC00137B7B /* Results.swift in Sources */,
+				1068E4442CDB762A00137B7B /* CompanyInfoViewController.swift in Sources */,
 				103B904C2CDB0B55001A5569 /* SceneDelegate.swift in Sources */,
+				1068E4422CDB561300137B7B /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +287,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +350,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +371,7 @@
 		};
 		103B905B2CDB0B56001A5569 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06BA97F09CA6AB27478B9E6 /* Pods-Jyanken.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,8 +382,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,14 +391,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.masaki.ebiko.Jyanken;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		103B905C2CDB0B56001A5569 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08603AEF2619674BFD1D36FE /* Pods-Jyanken.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,8 +413,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,9 +422,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.masaki.ebiko.Jyanken;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
